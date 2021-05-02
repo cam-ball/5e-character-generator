@@ -27,7 +27,7 @@ const Character = () => {
 
     return (
       <p>
-        You should build a <Attribute attribute={randomRace} /> <Attribute attribute={randomClass} />!!
+        You should build a <Attribute attribute={randomRace} /> <Attribute attribute={randomClass} />!
       </p>
     )
 

@@ -3,7 +3,6 @@ import ReactDOM from 'react-dom';
 import './styles/index.css';
 import App from './components/App';
 import reportWebVitals from './reportWebVitals';
-// import "uikit/dist/css/uikit.min.css"
 
 import {
   ApolloProvider,

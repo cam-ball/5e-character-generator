@@ -1,11 +1,14 @@
 import React from 'react'
 import { useQuery, gql } from '@apollo/client';
-import Race from './Race'
+import Attribute from './Attribute'
 
 const Character = () => {
   const RACE_QUERY = gql`
     {
       races {
+        name
+      }
+      classes {
         name
       }
     }
@@ -18,12 +21,13 @@ const Character = () => {
   const { data } = useQuery(RACE_QUERY);
 
   if (data) {
-    const raceList = data.races
-    const race = sample(raceList);
+    const { races, classes } = data
+    const randomRace = sample(races);
+    const randomClass = sample(classes);
 
     return (
       <p>
-        You should build a <Race race={race} />!!
+        You should build a <Attribute attribute={randomRace} /> <Attribute attribute={randomClass} />!!
       </p>
     )
 

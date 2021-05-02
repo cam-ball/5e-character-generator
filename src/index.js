@@ -5,10 +5,28 @@ import App from './components/App';
 import reportWebVitals from './reportWebVitals';
 // import "uikit/dist/css/uikit.min.css"
 
+import {
+  ApolloProvider,
+  ApolloClient,
+  createHttpLink,
+  InMemoryCache,
+} from '@apollo/client'
+
+const httpLink = createHttpLink({
+  uri: 'https://www.dnd5eapi.co/graphql'
+});
+
+const client = new ApolloClient({
+  link: httpLink,
+  cache: new InMemoryCache()
+});
+
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <ApolloProvider client={client}>
+    <React.StrictMode>
+      <App />
+    </React.StrictMode>
+  </ApolloProvider>,
   document.getElementById('root')
 );
 

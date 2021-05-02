@@ -1,30 +1,26 @@
-import React, { Component } from 'react'
+import React from 'react'
+import { useQuery, gql } from '@apollo/client';
 import Race from './Race'
 
-class Character extends Component {
-  render() {
-    const race = this.randomRace();
+const Character = () => {
+  const RACE_QUERY = gql`
+    {
+      races {
+        name
+      }
+    }
+  `;
+  const { loading, data } = useQuery(RACE_QUERY);
+  if (loading) { return <div> crunchatizing </div>}
 
-    return (
-      <p>
-        You should build a <Race race={race} />!!
-      </p>
-    )
-  }
+  const raceList = data.races
+  const race = raceList[Math.floor(Math.random() * raceList.length)];
 
-  sample(array) {
-    return array[Math.floor(Math.random() * array.length)];
-  }
-
-  randomRace() {
-    const races = [ 
-      { name: 'Human' },
-      { name: 'Halfing' },
-      { name: 'Dwarf' },
-    ]
-
-    return this.sample(races);
-  }
+  return (
+    <p>
+      You should build a <Race race={race} />!!
+    </p>
+  )
 }
 
 export default Character;

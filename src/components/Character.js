@@ -10,17 +10,28 @@ const Character = () => {
       }
     }
   `;
-  const { loading, data } = useQuery(RACE_QUERY);
-  if (loading) { return <div> crunchatizing </div>}
 
-  const raceList = data.races
-  const race = raceList[Math.floor(Math.random() * raceList.length)];
+  const sample = (array) => {
+    return array[Math.floor(Math.random() * array.length)];
+  }
 
-  return (
-    <p>
-      You should build a <Race race={race} />!!
-    </p>
-  )
+  const { data } = useQuery(RACE_QUERY);
+
+  if (data) {
+    const raceList = data.races
+    const race = sample(raceList);
+
+    return (
+      <p>
+        You should build a <Race race={race} />!!
+      </p>
+    )
+
+  } else {
+    return (
+      <p>Crunchatizing</p>
+    )
+  }
 }
 
 export default Character;

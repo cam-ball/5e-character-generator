@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/5e-character-generator/static/css/main.3fe9241d.chunk.css",
+    "main.js": "/5e-character-generator/static/js/main.4297c69f.chunk.js",
+    "main.js.map": "/5e-character-generator/static/js/main.4297c69f.chunk.js.map",
+    "runtime-main.js": "/5e-character-generator/static/js/runtime-main.0ac8b363.js",
+    "runtime-main.js.map": "/5e-character-generator/static/js/runtime-main.0ac8b363.js.map",
+    "static/js/2.27a39c76.chunk.js": "/5e-character-generator/static/js/2.27a39c76.chunk.js",
+    "static/js/2.27a39c76.chunk.js.map": "/5e-character-generator/static/js/2.27a39c76.chunk.js.map",
+    "static/js/3.30209a3c.chunk.js": "/5e-character-generator/static/js/3.30209a3c.chunk.js",
+    "static/js/3.30209a3c.chunk.js.map": "/5e-character-generator/static/js/3.30209a3c.chunk.js.map",
+    "index.html": "/5e-character-generator/index.html",
+    "static/css/main.3fe9241d.chunk.css.map": "/5e-character-generator/static/css/main.3fe9241d.chunk.css.map",
+    "static/js/2.27a39c76.chunk.js.LICENSE.txt": "/5e-character-generator/static/js/2.27a39c76.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0ac8b363.js",
+    "static/js/2.27a39c76.chunk.js",
+    "static/css/main.3fe9241d.chunk.css",
+    "static/js/main.4297c69f.chunk.js"
+  ]
+}

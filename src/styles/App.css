@@ -11,12 +11,19 @@
   font-size: 6rem;
 }
 
+/* spacing and layout */
 .flex-center { 
   display: flex;
   justify-content: center;
   text-align: center;
 }
 
+.min-height-30 {
+  min-height: 30rem;
+}
+
+
+/* button styling */
 button {
   /* aesthetics */
   color: #BEBABE;

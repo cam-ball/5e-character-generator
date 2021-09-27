@@ -20,7 +20,7 @@ const Interface = (props) => {
 
   return (
     <div>
-      <div class='flex-center'>
+      <div class='flex-center min-height-30'>
         <Character 
           characterAlignment={characterAlignment}
           characterRace={characterRace} 

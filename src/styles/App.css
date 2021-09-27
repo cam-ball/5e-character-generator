@@ -1,9 +1,12 @@
-.main {
-  display: flex;
-  height: 100vh;
+html {
   background: #423542;
   color: #836475;
+}
+
+.main {
+  display: flex;
   align-items: center;
+  overflow: auto;
 }
 
 .content {
@@ -49,10 +52,10 @@ button:after {
   position: absolute;
   top: -100%; 
   left: 0;
-  width: 100%; 
   height: 100%;
   background: #8A8E76;
   content: "";
+  width: 100%;
   z-index: -2;
   transition: transform .3s;
 }

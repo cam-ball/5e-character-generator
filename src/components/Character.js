@@ -6,11 +6,7 @@ const Character = (props) => {
 
   return (
     <p>
-      You should build a&nbsp; 
-      <Attribute attribute={characterAlignment} />&nbsp; 
-      <Attribute attribute={characterRace} />&nbsp;
-      <Attribute attribute={characterClass} />
-    !
+      You should build a <Attribute attribute={characterAlignment} />  <Attribute attribute={characterRace} /> <Attribute attribute={characterClass} />!
     </p>
   )
 }

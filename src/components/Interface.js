@@ -9,17 +9,23 @@ const Interface = (props) => {
   const shuffleCharacter = () => {
     setCharacterClass(sample(classes));
     setCharacterRace(sample(races));
+    setCharacterAlignment(sample(alignments));
   }
 
-  const { classes, races } = props.srdData;
-  const [characterClass, setCharacterClass] = useState(sample(classes))
+  const { alignments, races, classes } = props.srdData;
+  const [characterAlignment, setCharacterAlignment] = useState(sample(alignments))
   const [characterRace, setCharacterRace] = useState(sample(races))
+  const [characterClass, setCharacterClass] = useState(sample(classes))
 
 
   return (
     <div>
       <div class='flex-center'>
-        <Character characterRace={characterRace} characterClass={characterClass}/>
+        <Character 
+          characterAlignment={characterAlignment}
+          characterRace={characterRace} 
+          characterClass={characterClass}
+        />
       </div>
       <div class='flex-center'>
         <button onClick={() => shuffleCharacter() }>

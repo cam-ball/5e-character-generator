@@ -11,6 +11,9 @@ const QueryInterface = () => {
       classes {
         name
       }
+      alignments {
+        name
+      }
     }
   `;
 

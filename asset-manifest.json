@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/5e-character-generator/static/css/main.8f68eb17.chunk.css",
-    "main.js": "/5e-character-generator/static/js/main.58579fa8.chunk.js",
-    "main.js.map": "/5e-character-generator/static/js/main.58579fa8.chunk.js.map",
+    "main.css": "/5e-character-generator/static/css/main.9dbe0681.chunk.css",
+    "main.js": "/5e-character-generator/static/js/main.d83db310.chunk.js",
+    "main.js.map": "/5e-character-generator/static/js/main.d83db310.chunk.js.map",
     "runtime-main.js": "/5e-character-generator/static/js/runtime-main.ad0e12f0.js",
     "runtime-main.js.map": "/5e-character-generator/static/js/runtime-main.ad0e12f0.js.map",
     "static/js/2.543b7cbd.chunk.js": "/5e-character-generator/static/js/2.543b7cbd.chunk.js",
@@ -10,13 +10,13 @@
     "static/js/3.d7d75bf3.chunk.js": "/5e-character-generator/static/js/3.d7d75bf3.chunk.js",
     "static/js/3.d7d75bf3.chunk.js.map": "/5e-character-generator/static/js/3.d7d75bf3.chunk.js.map",
     "index.html": "/5e-character-generator/index.html",
-    "static/css/main.8f68eb17.chunk.css.map": "/5e-character-generator/static/css/main.8f68eb17.chunk.css.map",
+    "static/css/main.9dbe0681.chunk.css.map": "/5e-character-generator/static/css/main.9dbe0681.chunk.css.map",
     "static/js/2.543b7cbd.chunk.js.LICENSE.txt": "/5e-character-generator/static/js/2.543b7cbd.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.ad0e12f0.js",
     "static/js/2.543b7cbd.chunk.js",
-    "static/css/main.8f68eb17.chunk.css",
-    "static/js/main.58579fa8.chunk.js"
+    "static/css/main.9dbe0681.chunk.css",
+    "static/js/main.d83db310.chunk.js"
   ]
 }

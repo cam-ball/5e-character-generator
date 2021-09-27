@@ -18,10 +18,14 @@ const Interface = (props) => {
 
   return (
     <div>
-      <Character characterRace={characterRace} characterClass={characterClass}/>
-      <button onClick={() => shuffleCharacter() }>
-        { "I'm not feeling this one" }
-      </button>
+      <div class='flex-center'>
+        <Character characterRace={characterRace} characterClass={characterClass}/>
+      </div>
+      <div class='flex-center'>
+        <button onClick={() => shuffleCharacter() }>
+          { "I'm not feeling this one" }
+        </button>
+      </div>
     </div>
   )
 }

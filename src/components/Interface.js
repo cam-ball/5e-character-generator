@@ -1,39 +1,16 @@
 import React from 'react'
-import { useQuery, gql } from '@apollo/client';
 import Character from './Character'
 
-const Interface = () => {
-  const SRD_QUERY = gql`
-    {
-      races {
-        name
-      }
-      classes {
-        name
-      }
-    }
-  `;
-
+const Interface = (props) => {
   const sample = (array) => {
     return array[Math.floor(Math.random() * array.length)];
   }
 
-  const { data } = useQuery(SRD_QUERY);
+  const { classes, races } = props.srdData;
 
-  if (data) {
-    const { races, classes } = data
-    const randomRace = sample(races);
-    const randomClass = sample(classes);
-
-    return (
-      <Character characterRace={randomRace} characterClass={randomClass}/>
-    )
-
-  } else {
-    return (
-      <p>Crunchatizing</p>
-    )
-  }
+  return (
+    <Character characterRace={sample(races)} characterClass={sample(classes)}/>
+  )
 }
 
 export default Interface;

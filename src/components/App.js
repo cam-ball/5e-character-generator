@@ -1,17 +1,15 @@
-import React, { Component } from 'react';
-import Character from './Character';
+import React from 'react';
+import QueryInterface from './QueryInterface';
 import './../styles/App.css'
 
-class App extends Component {
-  render() {
-    return (
-      <div className='main'>
-        <div className='content'>
-          <Character />
-        </div>
+const App = () => {
+  return (
+    <div className='main'>
+      <div className='content'>
+        <QueryInterface />
       </div>
-    );
-  }
+    </div>
+  );
 }
 
 export default App;

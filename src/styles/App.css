@@ -42,6 +42,7 @@ button {
   /* placement */
   padding: 15px 10px;
   overflow: hidden;
+  margin: 0 6rem;
   position: relative;
   /* animation */
   transition: color .3s;

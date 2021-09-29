@@ -51,7 +51,7 @@ const Wizard = (props) => {
       </div>
       { renderButtons() }
       <div class='flex-center'>
-        <Roller lockedIn={lockedIn} />
+        <Roller visible={lockedIn} />
       </div>
     </div>
   )

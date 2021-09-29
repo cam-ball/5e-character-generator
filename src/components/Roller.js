@@ -5,9 +5,12 @@ const Roller = (props) => {
 
   if(lockedIn === true) {
     return (
-      <p>
-        I dunno what else you want from me.
-      </p>
+      <div class="options">
+        <input type="radio" id="standard" name="rollmethod"/>
+        <label for="standard"> Standard Array </label>
+        <input type="radio" id="manual" name="rollmethod"/>
+        <label for="manual">Manual</label>
+      </div>
     )
   } else {
     return null;

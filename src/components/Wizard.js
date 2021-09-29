@@ -42,7 +42,7 @@ const Wizard = (props) => {
 
   return (
     <div>
-      <div class='flex-center min-height-30'>
+      <div class='flex-center min-height-30 character'>
         <Character 
           characterAlignment={characterAlignment}
           characterRace={characterRace} 

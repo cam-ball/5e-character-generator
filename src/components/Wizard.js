@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import Character from './Character'
 
-const Interface = (props) => {
+const Wizard = (props) => {
   const sample = (array) => {
     return array[Math.floor(Math.random() * array.length)];
   }
@@ -36,4 +36,4 @@ const Interface = (props) => {
   )
 }
 
-export default Interface;
+export default Wizard;

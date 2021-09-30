@@ -1,70 +1,40 @@
-html {
-  background: #423542;
-  color: #836475;
-}
-
-.main {
-  display: flex;
-  align-items: center;
-  overflow: auto;
-}
-
-.content {
-  margin: 0 auto;
-}
-
 .character {
   font-size: 6em;
 }
 
 /* spacing and layout */
-.flex-center { 
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  flex-direction: row;
-}
-
 .roll-result {
-  float: left;
   background: #8A8E76;
   border: solid 2px #8A8E76;
   border-radius: 1rem;
   color: #423542;
-  margin: 1rem;
-  font-size: 3rem;
   width: 4rem;
   height: 4rem;
-}
-
-.min-height-30 {
-  min-height: 30rem;
+  line-height: 3.7rem;
+  font-size: 3rem;
 }
 
 /* button styling */
-button {
+.transition-button {
   /* aesthetics */
   color: #BEBABE;
   background: #5F624F;
-  text-align: center;
   text-transform: uppercase;
   font-weight: bold;
   letter-spacing: 3px;
   font-size: 1rem;
-  cursor: pointer;
   border: solid 2px #8A8E76;
   border-radius: 15px;
   /* placement */
   padding: 15px 10px;
   overflow: hidden;
-  margin: 0 6rem;
   position: relative;
   /* animation */
   transition: color .3s;
   z-index: 1;
 }
 
-button:after {
+.transition-button:after {
   position: absolute;
   top: -100%; 
   left: 0;
@@ -76,11 +46,11 @@ button:after {
   transition: transform .3s;
 }
 
-button:hover {
+.transition-button:hover {
   color: #423542;
 }
 
-button:hover::after {
+.transition-button:hover::after {
   transform: translateY(100%);
   transition: transform .3s;
 }

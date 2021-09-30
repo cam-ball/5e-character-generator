@@ -5,9 +5,9 @@ const Character = (props) => {
   const { characterAlignment, characterRace, characterClass } = props;
 
   return (
-    <p>
+    <div class='col text-center'>
       You should build a <Attribute attribute={characterAlignment} />  <Attribute attribute={characterRace} /> <Attribute attribute={characterClass} />!
-    </p>
+    </div>
   )
 }
 

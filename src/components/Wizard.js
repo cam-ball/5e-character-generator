@@ -26,13 +26,17 @@ const Wizard = (props) => {
   const renderButtons = () => {
     if (lockedIn === false) {
       return (
-        <div class='flex-center'>
-          <button onClick={() => shuffleCharacter() }>
-            { "I'm not feeling this one" }
-          </button>
-          <button onClick={() => lockIn() }>
-            { "Ok, sure." }
-          </button>
+        <div class="row justify-content-center gy-3">
+          <div class="col-md-3 d-flex justify-content-center"> 
+            <button class="btn transition-button" onClick={() => shuffleCharacter() }>
+              { "I'm not feeling this one" }
+            </button>
+          </div>
+          <div class="col-md-3 d-flex justify-content-center"> 
+            <button class="btn transition-button" onClick={() => lockIn() }>
+              { "Ok, sure." }
+            </button>
+          </div>
         </div>
       )
     } else {
@@ -41,8 +45,8 @@ const Wizard = (props) => {
   }
 
   return (
-    <div>
-      <div class='flex-center min-height-30 character'>
+    <div class="container-fluid">
+      <div class='row character m-4'>
         <Character 
           characterAlignment={characterAlignment}
           characterRace={characterRace} 
@@ -50,7 +54,7 @@ const Wizard = (props) => {
         />
       </div>
       { renderButtons() }
-      <div class='flex-center'>
+      <div class='row'>
         <Roller visible={lockedIn} />
       </div>
     </div>

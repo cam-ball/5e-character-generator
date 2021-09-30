@@ -1,5 +1,5 @@
 import React from 'react';
-import QueryInterface from './QueryInterface';
+import QueryInterface from './QueryInterface'
 import './../styles/App.css'
 
 const App = () => {

@@ -48,8 +48,12 @@ const Roller = (props) => {
     if (rollMethod) {
       return (
         <div>
-          <h2> Rolling with { rollMethod }:</h2>
-          <div class="flex-center">
+          <div class="row flex-d justify-content-center">
+            <div class="col d-flex justify-content-center text-center">
+              <h2> Rolling with { rollMethod }:</h2>
+            </div>
+          </div>
+          <div class="row flex-d justify-content-center">
             <RollResult rollResult={ rollResult } />
           </div>
         </div>
@@ -61,24 +65,14 @@ const Roller = (props) => {
 
   if(visible === true) {
     return (
-      <div>
-        <div value={rollMethod} onChange={(event) => handleUpdate(event)}>
-          <label>
-            <input 
-              type="radio" 
-              value="Standard Array" 
-              name="rollmethod"
-            />
-            Standard Array
-          </label>
-          <label>
-            <input 
-              type="radio" 
-              value="Manual" 
-              name="rollmethod"
-            />
-            Manual
-          </label>
+      <div class="row justify-content-center gy-3">
+        <div class="col-md-3 justify-content-center d-flex" value={rollMethod} onChange={(event) => handleUpdate(event)}>
+          <input type="radio" value="Standard Array" id="standard" name="rollmethod" class="btn-check" />
+          <label class="btn transition-button" for="standard">Standard Array</label>
+        </div>
+        <div class="col-md-3 justify-content-center d-flex" value={rollMethod} onChange={(event) => handleUpdate(event)}>
+          <input type="radio" value="Manual" id="manual" name="rollmethod" class="btn-check" />
+          <label class="btn transition-button" for="manual">Manual</label>
         </div>
         { displayRollType() }
       </div>

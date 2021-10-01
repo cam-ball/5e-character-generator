@@ -1,22 +1,25 @@
 {
   "files": {
-    "main.css": "/5e-character-generator/static/css/main.7d38b4ca.chunk.css",
-    "main.js": "/5e-character-generator/static/js/main.b1d8c048.chunk.js",
-    "main.js.map": "/5e-character-generator/static/js/main.b1d8c048.chunk.js.map",
-    "runtime-main.js": "/5e-character-generator/static/js/runtime-main.ad0e12f0.js",
-    "runtime-main.js.map": "/5e-character-generator/static/js/runtime-main.ad0e12f0.js.map",
-    "static/js/2.543b7cbd.chunk.js": "/5e-character-generator/static/js/2.543b7cbd.chunk.js",
-    "static/js/2.543b7cbd.chunk.js.map": "/5e-character-generator/static/js/2.543b7cbd.chunk.js.map",
-    "static/js/3.d7d75bf3.chunk.js": "/5e-character-generator/static/js/3.d7d75bf3.chunk.js",
-    "static/js/3.d7d75bf3.chunk.js.map": "/5e-character-generator/static/js/3.d7d75bf3.chunk.js.map",
+    "main.css": "/5e-character-generator/static/css/main.d3a9767b.chunk.css",
+    "main.js": "/5e-character-generator/static/js/main.b7f31012.chunk.js",
+    "main.js.map": "/5e-character-generator/static/js/main.b7f31012.chunk.js.map",
+    "runtime-main.js": "/5e-character-generator/static/js/runtime-main.6aecaa10.js",
+    "runtime-main.js.map": "/5e-character-generator/static/js/runtime-main.6aecaa10.js.map",
+    "static/css/2.ebe04f07.chunk.css": "/5e-character-generator/static/css/2.ebe04f07.chunk.css",
+    "static/js/2.1d82b6ae.chunk.js": "/5e-character-generator/static/js/2.1d82b6ae.chunk.js",
+    "static/js/2.1d82b6ae.chunk.js.map": "/5e-character-generator/static/js/2.1d82b6ae.chunk.js.map",
+    "static/js/3.c4d4d09e.chunk.js": "/5e-character-generator/static/js/3.c4d4d09e.chunk.js",
+    "static/js/3.c4d4d09e.chunk.js.map": "/5e-character-generator/static/js/3.c4d4d09e.chunk.js.map",
     "index.html": "/5e-character-generator/index.html",
-    "static/css/main.7d38b4ca.chunk.css.map": "/5e-character-generator/static/css/main.7d38b4ca.chunk.css.map",
-    "static/js/2.543b7cbd.chunk.js.LICENSE.txt": "/5e-character-generator/static/js/2.543b7cbd.chunk.js.LICENSE.txt"
+    "static/css/2.ebe04f07.chunk.css.map": "/5e-character-generator/static/css/2.ebe04f07.chunk.css.map",
+    "static/css/main.d3a9767b.chunk.css.map": "/5e-character-generator/static/css/main.d3a9767b.chunk.css.map",
+    "static/js/2.1d82b6ae.chunk.js.LICENSE.txt": "/5e-character-generator/static/js/2.1d82b6ae.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.ad0e12f0.js",
-    "static/js/2.543b7cbd.chunk.js",
-    "static/css/main.7d38b4ca.chunk.css",
-    "static/js/main.b1d8c048.chunk.js"
+    "static/js/runtime-main.6aecaa10.js",
+    "static/css/2.ebe04f07.chunk.css",
+    "static/js/2.1d82b6ae.chunk.js",
+    "static/css/main.d3a9767b.chunk.css",
+    "static/js/main.b7f31012.chunk.js"
   ]
 }

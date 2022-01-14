@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/5e-character-generator/static/css/main.4e5bf0c1.chunk.css",
-    "main.js": "/5e-character-generator/static/js/main.8cdc4c64.chunk.js",
-    "main.js.map": "/5e-character-generator/static/js/main.8cdc4c64.chunk.js.map",
+    "main.css": "/5e-character-generator/static/css/main.806371bc.chunk.css",
+    "main.js": "/5e-character-generator/static/js/main.d6b32369.chunk.js",
+    "main.js.map": "/5e-character-generator/static/js/main.d6b32369.chunk.js.map",
     "runtime-main.js": "/5e-character-generator/static/js/runtime-main.6aecaa10.js",
     "runtime-main.js.map": "/5e-character-generator/static/js/runtime-main.6aecaa10.js.map",
-    "static/css/2.ebe04f07.chunk.css": "/5e-character-generator/static/css/2.ebe04f07.chunk.css",
-    "static/js/2.0a0b25eb.chunk.js": "/5e-character-generator/static/js/2.0a0b25eb.chunk.js",
-    "static/js/2.0a0b25eb.chunk.js.map": "/5e-character-generator/static/js/2.0a0b25eb.chunk.js.map",
+    "static/css/2.c1256375.chunk.css": "/5e-character-generator/static/css/2.c1256375.chunk.css",
+    "static/js/2.532cb2cd.chunk.js": "/5e-character-generator/static/js/2.532cb2cd.chunk.js",
+    "static/js/2.532cb2cd.chunk.js.map": "/5e-character-generator/static/js/2.532cb2cd.chunk.js.map",
     "static/js/3.c4d4d09e.chunk.js": "/5e-character-generator/static/js/3.c4d4d09e.chunk.js",
     "static/js/3.c4d4d09e.chunk.js.map": "/5e-character-generator/static/js/3.c4d4d09e.chunk.js.map",
     "index.html": "/5e-character-generator/index.html",
-    "static/css/2.ebe04f07.chunk.css.map": "/5e-character-generator/static/css/2.ebe04f07.chunk.css.map",
-    "static/css/main.4e5bf0c1.chunk.css.map": "/5e-character-generator/static/css/main.4e5bf0c1.chunk.css.map",
-    "static/js/2.0a0b25eb.chunk.js.LICENSE.txt": "/5e-character-generator/static/js/2.0a0b25eb.chunk.js.LICENSE.txt"
+    "static/css/2.c1256375.chunk.css.map": "/5e-character-generator/static/css/2.c1256375.chunk.css.map",
+    "static/css/main.806371bc.chunk.css.map": "/5e-character-generator/static/css/main.806371bc.chunk.css.map",
+    "static/js/2.532cb2cd.chunk.js.LICENSE.txt": "/5e-character-generator/static/js/2.532cb2cd.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.6aecaa10.js",
-    "static/css/2.ebe04f07.chunk.css",
-    "static/js/2.0a0b25eb.chunk.js",
-    "static/css/main.4e5bf0c1.chunk.css",
-    "static/js/main.8cdc4c64.chunk.js"
+    "static/css/2.c1256375.chunk.css",
+    "static/js/2.532cb2cd.chunk.js",
+    "static/css/main.806371bc.chunk.css",
+    "static/js/main.d6b32369.chunk.js"
   ]
 }

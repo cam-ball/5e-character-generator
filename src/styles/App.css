@@ -1,17 +1,6 @@
 .character {
   font-size: 6em;
-}
-
-/* spacing and layout */
-.roll-result {
-  background: #8A8E76;
-  border: solid 2px #8A8E76;
-  border-radius: 1rem;
-  color: #423542;
-  width: 4rem;
-  height: 4rem;
-  line-height: 3.7rem;
-  font-size: 3rem;
+  min-height: 30vh;
 }
 
 /* button styling */

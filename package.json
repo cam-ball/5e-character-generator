@@ -1,6 +1,6 @@
 {
   "name": "random-character",
-  "homepage": "https://laurenball.dev/5e-character-generator",
+  "homepage": "https://laurenball.github.io/5e-character-generator",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

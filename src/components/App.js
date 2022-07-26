@@ -11,7 +11,7 @@ const App = () => {
       </div>
     </div>
     <footer className="footer mt-auto py-3 text-center">
-      made with ♥  by <a href="https://laurenball.github.io">laurenball</a>
+      made with ♥  by <a href="https://camballsoup.dev">cam-ball</a>
     </footer>
     </>
   );

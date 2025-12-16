@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/5e-character-generator/static/css/main.d5d5af5c.css",
-    "main.js": "/5e-character-generator/static/js/main.9157e0e6.js",
-    "static/js/496.03952ae2.chunk.js": "/5e-character-generator/static/js/496.03952ae2.chunk.js",
+    "main.css": "/5e-character-generator/static/css/main.a5d96d77.css",
+    "main.js": "/5e-character-generator/static/js/main.61754055.js",
+    "static/js/488.626bb2dc.chunk.js": "/5e-character-generator/static/js/488.626bb2dc.chunk.js",
     "index.html": "/5e-character-generator/index.html",
-    "main.d5d5af5c.css.map": "/5e-character-generator/static/css/main.d5d5af5c.css.map",
-    "main.9157e0e6.js.map": "/5e-character-generator/static/js/main.9157e0e6.js.map",
-    "496.03952ae2.chunk.js.map": "/5e-character-generator/static/js/496.03952ae2.chunk.js.map"
+    "main.a5d96d77.css.map": "/5e-character-generator/static/css/main.a5d96d77.css.map",
+    "main.61754055.js.map": "/5e-character-generator/static/js/main.61754055.js.map",
+    "488.626bb2dc.chunk.js.map": "/5e-character-generator/static/js/488.626bb2dc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d5d5af5c.css",
-    "static/js/main.9157e0e6.js"
+    "static/css/main.a5d96d77.css",
+    "static/js/main.61754055.js"
   ]
 }

@@ -4,13 +4,14 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@apollo/client": "*",
+    "@apollo/client": "^4.1.9",
     "@vitejs/plugin-react": "^6.0.2",
     "bootstrap": "*",
     "gh-pages": "*",
-    "graphql": "*",
+    "graphql": "^16.14.0",
     "react": "*",
     "react-dom": "*",
+    "rxjs": "^7.8.2",
     "vite": "^8.0.13",
     "vite-plugin-svgr": "^5.2.0",
     "web-vitals": "*"

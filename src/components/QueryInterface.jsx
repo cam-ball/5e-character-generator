@@ -1,6 +1,7 @@
-import React from 'react'
-import Wizard from './Wizard'
-import { useQuery, gql } from '@apollo/client';
+import Wizard from "./Wizard";
+import { gql } from "@apollo/client";
+
+import { useQuery } from "@apollo/client/react";
 
 const QueryInterface = () => {
   const SRD_QUERY = gql`
@@ -20,10 +21,10 @@ const QueryInterface = () => {
   const { data } = useQuery(SRD_QUERY);
 
   if (data) {
-    return (<Wizard srdData={data}/>);
+    return <Wizard srdData={data} />;
   } else {
-    return (<p> Crunchatizing </p>);
+    return <p> Crunchatizing </p>;
   }
-}
+};
 
 export default QueryInterface;

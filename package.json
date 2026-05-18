@@ -8,11 +8,14 @@
     "@testing-library/jest-dom": "*",
     "@testing-library/react": "*",
     "@testing-library/user-event": "*",
+    "@vitejs/plugin-react-swc": "^4.3.1",
     "bootstrap": "*",
     "gh-pages": "*",
     "graphql": "*",
     "react": "*",
     "react-dom": "*",
+    "vite": "^8.0.13",
+    "vite-plugin-svgr": "^5.2.0",
     "web-vitals": "*"
   },
   "scripts": {

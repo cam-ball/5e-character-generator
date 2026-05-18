@@ -7,7 +7,6 @@
     "@apollo/client": "^4.1.9",
     "@vitejs/plugin-react": "^6.0.2",
     "bootstrap": "*",
-    "gh-pages": "*",
     "graphql": "^16.14.0",
     "react": "*",
     "react-dom": "*",
